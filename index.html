@@ -38,9 +38,44 @@
      <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>A branch allows a user to work on a "copied" version of the Main file without affecting the Main file itself or other users</li>
           <li>git status check what branch we're currently on</li>
           <li>git checkout -b branch name: creates a new branch and switches to it</li>
+          <li>checkout command == move working branch into new branch</li>
+          <li><span id="keyterm">-b</span> == creates a new branch</li>
+          <li><span id="keyterm">feature/desired-branch-name</span> == name of new branch</li>
+          <li><span id="keyterm">add</span> == adds modifications in the current working branch to staging area </li>
+          <li><span id="keyterm">-A</span> == will add all changes</li>
+          <li><span id="keyterm">git commit</span> == commits files to be changed</li>
+          <li><span id="keyterm">-m</span> "your desired message" == adding a comment of current staged changes</li>
+          <li><span id="keyterm">pull</span> == receives a branches changes to local environment</li>
+          <li><span id="keyterm">origin</span> == the source of the pull in the GitHub repo</li>
+          <li><span id="keyterm">push</span> == push local changes to remote branch and can create a new remote branch or add new changes to existing branch </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+
         </ul>
+
+        <h3>Git flow process</h3>
+        <ol>
+              <li>Create a local feature branch </li>
+              <li>check status</li>
+              <li>create feature branch by following: <br>git checkout -b feature/branch-name(ex: starter code)</br></li>
+              <li>Add starter code to current working branch: git add -A</li>
+              <li>Previous step staged the file to be commited</li>
+              <li>Commit the changes & add a commit message: <br>git commit -m "desrcibe changes"</br> </li>
+              <li>Before pushing up to repo, double-check that local and GitHub branch are in sync: <br>git pull origin main</br></li>
+              <li> Branches are now in sync!</li>
+              <li>push changes to remote branch: git push origin feature/feature-name</li>
+              <li>Go to GitHub repo in browser and select the proper feature branch then hit <br> "compare & pull request"</br></li>
+              <li>Give PR a descriptive title </li>
+              <li>In the PR body: add instructions for team members reviewing the PR about what changes were made, how the feature is supposed to function, and how to start the feature so it can be tested</li>
+              <li>designate the base branch as main and the comparison branch as feature/branch-name</li>
+              <li>select "Create Pull Request" </li>
+        </ol>
      </section>
 
      <section class="card" id="javascript-section">
