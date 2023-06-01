@@ -12,7 +12,8 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -29,6 +30,11 @@ ul {
     font-size: 20px;
 }
 
+ol {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
 p {
     text-align: center;
     font-size: 30px; 
@@ -39,4 +45,8 @@ p {
     margin: 40px auto;
     border: 5px solid grey;
     box-shadow: 5px 10px #888888;
+  }
+
+  span{
+    color: rgb(252,0,0);
   }
