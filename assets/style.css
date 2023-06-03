@@ -15,6 +15,7 @@ h1,
 h2,
 h3 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 img {
@@ -51,10 +52,4 @@ p {
     color: rgb(252,0,0);
   }
 
-  h3 {
-    color: rgb(22, 22, 185);
-  }
-
-  li {
-    padding-bottom: 30px;
-  }
+ 
