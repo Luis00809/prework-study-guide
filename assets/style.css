@@ -50,3 +50,11 @@ p {
   span{
     color: rgb(252,0,0);
   }
+
+  h3 {
+    color: rgb(22, 22, 185);
+  }
+
+  li {
+    padding-bottom: 30px;
+  }
